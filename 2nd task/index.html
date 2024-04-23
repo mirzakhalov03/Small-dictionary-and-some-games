@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <div class="platform">
+        <div class="platform__wrapper">
+            <div class="platform__card" style="border: none;">
+                <div class="card__header">
+                    <form id="userForm">
+                        <input type="text" id="userInput" placeholder="Search for words here...">
+                    </form>
+                </div>
+                <br>
+
+                <div class="platform__meaning">
+                    <h2>Definition:</h2>
+                    <div class="meaning-content" id="meaningContent">
+                        <span style="display: none;" id="noContent"><strong>No matching content</strong></span>
+                        <p id="dog"> <strong>Dog</strong>: A furry friend with four legs, often kept as a pet or for work.</p>
+                        <p id="cat"> <strong>Cat</strong>: A small furry friend with retractable claws, often kept as a pet.</p>
+                        <p id="ball"> <strong>Ball</strong>: A round object used in games and sports, usually made of rubber or leather and filled with air or similar material.</p>
+                        <p id="sun"> <strong>Sun</strong>: The star that gives us light and heat, around which the Earth orbits.</p>
+                        <p id="moon"> <strong>Moon</strong>: Earth's natural satellite, visible in the night sky by reflected sunlight.</p>
+                        <p id="tree"> <strong>Tree</strong>: A tall plant with a single trunk and branches, often covered in leaves or needles.</p>
+                        <p id="book"> <strong>Book</strong>: A written or printed work consisting of pages bound together, often with a cover.</p>
+                        <p id="water"> <strong>Water</strong>: A clear, tasteless, and odorless liquid found in oceans, rivers, lakes, and rain, essential for life.</p>
+                        <p id="bird"> <strong>Bird</strong>: A warm-blooded animal with feathers, wings, and a beak, often capable of flight.</p>
+                        <p id="flower"> <strong>Flower</strong>: The colorful part of a plant that produces seeds, often surrounded by petals and sepals.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul>
+        <p><strong>Preset words:</strong></p>
+        <li>dog</li>
+        <li>cat</li>
+        <li>ball</li>
+        <li>sun</li>
+        <li>moon</li>
+        <li>tree</li>
+        <li>book</li>
+        <li>water</li>
+        <li>bird</li>
+        <li>flower</li>
+    </ul>
+    <script src="./js/script.js"></script>
+</body>
+</html>
